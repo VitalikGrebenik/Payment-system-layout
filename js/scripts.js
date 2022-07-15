@@ -6,6 +6,7 @@ function burgerMenu() {
 	const menu = document.querySelector('.menu')
 	const body = document.querySelector('body')
 	burger.addEventListener('click', () => {
+		console.log('!')
 	  if (!menu.classList.contains('active')) {
 		menu.classList.add('active')
 		burger.classList.add('active-burger')
